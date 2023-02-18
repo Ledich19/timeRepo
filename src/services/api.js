@@ -10,7 +10,6 @@ axios.defaults.params = {
   per_page: 12,
   image_type: 'photo',
 };
-
 export const fetchPhotosByQuery = async (query, page = 1) => {
   const { data } = await axios.get(`search?query=${query}&page=${page}`);
   return data;
