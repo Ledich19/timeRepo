@@ -4,7 +4,6 @@ import { Searchbar } from './Searchbar/Searchbar';
 import { ImageGallery } from './ImageGallerry/ImageGallery';
 import { Button } from './Button/Button';
 import { Loader } from './Loader/Loader';
-// import { Modal } from './Modal/Modal';
 import css from './APP.module.css';
 
 export function App() {
