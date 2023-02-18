@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { fetchPhotosByQuery } from 'services/api';
-import { SearchBar } from './SearchBar/SearchBar';
+import { SearchBar } from '/SearchBar/SearchBar';
 import { ImageGallery } from './ImageGallerry/ImageGallery';
 import { Button } from './Button/Button';
 import { Loader } from './Loader/Loader';
