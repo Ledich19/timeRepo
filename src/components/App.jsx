@@ -10,8 +10,8 @@ export function App() {
   const [photos, setPhotos] = useState([]);
   const [page, ] = useState(1);
   const [isLoading, setSsLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [largeImageURL, setLargeImageURL] = useState('');
+  // const [error, setError] = useState('');
+  // const [largeImageURL, setLargeImageURL] = useState('');
 
   const getData = async query => {
     setSsLoading(true);
