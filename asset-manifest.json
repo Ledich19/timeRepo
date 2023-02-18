@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/timeRepo/static/css/main.373cd4d6.css",
+    "main.js": "/timeRepo/static/js/main.abb5d09a.js",
+    "index.html": "/timeRepo/index.html",
+    "main.373cd4d6.css.map": "/timeRepo/static/css/main.373cd4d6.css.map",
+    "main.abb5d09a.js.map": "/timeRepo/static/js/main.abb5d09a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.373cd4d6.css",
+    "static/js/main.abb5d09a.js"
+  ]
+}
