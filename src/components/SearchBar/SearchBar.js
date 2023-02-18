@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import css from './SearchBar.module.css';
 
-function SearchBar({ onSubmit }) {
+export function SearchBar({ onSubmit }) {
   const [query, setQuery] = useState('');
 
   const handleInput = ({ target }) => {
@@ -32,4 +32,3 @@ function SearchBar({ onSubmit }) {
     </header>
   );
 }
-export default SearchBar
