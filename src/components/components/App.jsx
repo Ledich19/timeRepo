@@ -1,6 +1,6 @@
 import React, { Component, useEffect, useState } from 'react';
 import { fetchPhotosByQuery } from 'services/api';
-import { Searchbar } from './Searchbar/Searchbar';
+import { SearchBar } from './SearchBar/SearchBar';
 import { ImageGallery } from './ImageGallerry/ImageGallery';
 import { Button } from './Button/Button';
 import { Loader } from './Loader/Loader';
@@ -25,7 +25,7 @@ export function App() {
 
   return (
     <div className={css.App}>
-      <Searchbar onSubmit={getData} />
+      <SearchBar onSubmit={getData} />
       {isLoading && <Loader />}
       {photos.length > 0 ? (
         <ImageGallery photos={photos} onClickPhoto={handleClickPhoto} />

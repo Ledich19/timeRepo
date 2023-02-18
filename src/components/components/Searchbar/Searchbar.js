@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import css from './Searchbar.module.css';
+import css from './SearchBar.module.css';
 
-export function Searchbar({ onSubmit }) {
+export function SearchBar({ onSubmit }) {
   const [query, setQuery] = useState('');
 
   const handleInput = ({ target }) => {
